@@ -1,5 +1,11 @@
 .header{
+    /* max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 16px;
+} */
+
+.navbar{
     max-width: 1440px;
     margin: 0 auto;
-    
+    display: flex;
 }
