@@ -22,11 +22,9 @@
 }
 
 .icon {
-    display: flex;
     gap: 1rem;
     width: 24px;
     height: 24px;
-    font-weight: 700;
 }
 
 .navbar li {
