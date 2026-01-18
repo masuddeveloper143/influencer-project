@@ -134,10 +134,11 @@
 
 .logo-content{
     display: flex;
+    height:110px;
     align-items: center;
-    max-width: 1110px;
-    height: 110px;
+    justify-content: space-around;
     border: 1px solid red;
+    margin-top: 6rem;
 }
 
 
