@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-
+*{
+    margin: 0;
+    padding: 0;
+}
 
 .poppins-thin {
     font-family: "Poppins", sans-serif;
@@ -154,27 +157,39 @@ body {
     padding: 15px;
     border-radius: 6px;
     box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
-background: rgba(255, 255, 255, 1);
-    
+    background: rgba(255, 255, 255, 1);
+    transition: 0.3s;
+}
+.crad-box:hover {
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+}
+
+.crad-box img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
 
 }
 
-.crad-box img{
-width: 100%;
-height: auto;
-object-fit: cover;
-border-radius: 5px;
+.dollar{
+    font-size:1.8rem ;
+}
+.h4-h4{
+}
+.p-p {
+    font-style: Bold;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 143%;
+    letter-spacing: 1.8%;
+    text-align: left;
+    color: #5E6366;
 
 }
 
-.rad-box, .p-p{
-    font-family: Inter;
-font-style: Bold;
-font-size: 14px;
-font-weight: 700;
-line-height: 143%;
-letter-spacing: 1.8%;
-text-align: left;
+.star5 {
+    color: orange;
 }
 
 
