@@ -149,7 +149,12 @@ body {
     margin-top: 6rem;
 }
 
-.crat-content {}
+.crat-content {
+    width: 100%;
+    margin: 0 100px;
+    margin-bottom: 7rem;
+
+}
 
 .crad-box {
     width: 329px;
@@ -177,11 +182,12 @@ body {
     font-size:1.8rem ;
 }
 .h4-h4{
+    font-weight: 600;
 }
 .p-p {
     font-style: Bold;
     font-size: 14px;
-    font-weight: 700;
+    font-weight: 500;
     line-height: 143%;
     letter-spacing: 1.8%;
     text-align: left;
@@ -189,11 +195,14 @@ body {
 
 }
 
+.crad-title{
+    margin-top: 1rem;
+}
+
 
 
 .star5 {
     color: orange;
-    margin-top: 0.6 ;
 }
 
 
