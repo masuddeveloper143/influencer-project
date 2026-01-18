@@ -48,3 +48,15 @@
     text-decoration: none;
     color: black;
 }
+
+.navba h1{
+    color: rgba(58, 58, 58, 1);
+
+font-family: Poppins;
+font-style: Bold;
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0px;
+text-align: left;
+}
