@@ -7,7 +7,8 @@
     font-weight: normal;
     font-style: normal;
 }
-body{
+
+body {
     background-color: FFFFFF;
 }
 
@@ -144,13 +145,13 @@ body{
     margin-top: 6rem;
 }
 
-.crat-content {
-    
-}
+.crat-content {}
 
-.crad-box{
-   width: 329px; 
-   height: 476;
+.crad-box {
+    
+    width: 329px;
+    height: 476px;
+    border: 1px solid red;
 
 }
 
