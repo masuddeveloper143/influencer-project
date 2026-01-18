@@ -150,8 +150,11 @@ body {
 }
 
 .crat-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    margin: 0 100px;
     margin-bottom: 7rem;
 
 }
