@@ -76,22 +76,37 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
-    
+
+
 }
 
 .hero-title {
     max-width: 582px;
+
+}
+
+.hero-title h1 {
+    color: rgba(58, 58, 58, 1);
+
+    font-family: Poppins;
+    font-style: Bold;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.hero-container {
+    margin-top: 4rem;
 }
 
 .hero-images {
     max-width: 440px;
     height: 414px;
-    background-image: url("./images/");
+    background-image: url("./images/Circle\ design.svg");
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    object-fit: cover;
+    background-size: contain;
 }
 
 
@@ -111,6 +126,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 3px;
+    font-weight: 700;
 
 }
 
