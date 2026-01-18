@@ -24,8 +24,9 @@
 }
 
 #icon{
-    width: 24px;
-    height: 24px;
+  width: 1.5rem;
+  height: 1.5rem;
+  color: #ff900e;
     display: none;
 }
 
@@ -166,5 +167,9 @@
         margin: 0 auto;
       }
 
-      #icon{display: block;}
+      #icon{
+        height: 100%;
+        height: 100%;
+        display: block;
+    }
 }
