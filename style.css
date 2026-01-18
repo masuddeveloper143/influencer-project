@@ -150,6 +150,17 @@ body {
     margin-top: 6rem;
 }
 
+
+.Popular{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    font-size: clamp(0.5rem, 6vw, 1.5rem) ;
+    font-weight: 300;
+    /* border: 1px solid black; */
+}
+
 .crat-content {
     max-width: 1138px;
     margin: 0 auto;
