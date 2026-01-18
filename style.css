@@ -229,10 +229,18 @@ body {
 
 .featured{
     width: 100%;
+    max-width: 1280px;
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 96px;
+    /* border: 1px solid red; */
 
+
+}
+
+.featured-title{
+    max-width: 610px;
 }
 
 
