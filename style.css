@@ -24,7 +24,9 @@
 }
 
 #icon{
-    
+    width: 24px;
+    height: 24px;
+    display: none;
 }
 
 .navbar ul {
@@ -163,4 +165,6 @@
     .btn{
         margin: 0 auto;
       }
+
+      #icon{display: block;}
 }
