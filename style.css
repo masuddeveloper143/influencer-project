@@ -68,8 +68,7 @@
 }
 
 .hero-container {
-    
-    
+    display: flex;
 }
 
 .hero-title {
@@ -79,13 +78,16 @@
 .hero-images {
     max-width: 440px;
     height: 414px;
-}
-
-.hero-images img{
-    width: 100%;
-    height: 100%;
     background-repeat: no-repeat;
     background-position: center;
-    object-fit: cover;
     background-size: cover;
+    object-fit: cover;
+}
+
+
+.hero-imaege {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
 }
