@@ -81,6 +81,11 @@
     height: 414px;
 }
 
-.hero-imaege{
-    
+.hero-images img{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+    background-size: cover;
 }
