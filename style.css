@@ -3,6 +3,7 @@
 *{
     margin: 0;
     padding: 0;
+
 }
 
 .poppins-thin {
@@ -188,8 +189,11 @@ body {
 
 }
 
+
+
 .star5 {
     color: orange;
+    margin-top: 0.6 ;
 }
 
 
