@@ -134,10 +134,10 @@
 
 .logo-content{
     display: flex;
-    height:110px;
+    min-height:110px;
     align-items: center;
     justify-content: space-around;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin-top: 6rem;
 }
 
@@ -189,4 +189,7 @@
         height: 100%;
         display: block;
     }
+.logo-content{
+    display: grid;
+grid-template-columns:2, 1fr;
 }
