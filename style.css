@@ -10,7 +10,7 @@
 
 
 .navbar {
-    width:100% ;
+    width: 100%;
     max-width: 1440px;
     margin: 0 auto;
     margin-top: 30px;
@@ -37,7 +37,7 @@
     gap: 1rem;
     width: 24px;
     height: 24px;
-    
+
 }
 
 .navbar li {
@@ -49,28 +49,38 @@
     color: black;
 }
 
-.navba h1{
+.navba h1 {
     color: rgba(58, 58, 58, 1);
 
-font-family: Poppins;
-font-style: Bold;
-font-size: 24px;
-font-weight: 700;
-line-height: 36px;
-letter-spacing: 0px;
-text-align: left;
+    font-family: Poppins;
+    font-style: Bold;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0px;
+    text-align: left;
 }
 
-.hero{
+.hero {
     max-width: 1440px;
-      margin: 0 auto;
-      padding: 0 16px;
+    margin: 0 auto;
+    padding: 0 16px;
 }
-.hero-title{
+
+.hero-container {
+    
+    
+}
+
+.hero-title {
     max-width: 582px;
 }
 
-.hero-images{
+.hero-images {
     max-width: 440px;
     height: 414px;
+}
+
+.hero-imaege{
+    
 }
