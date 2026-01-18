@@ -132,6 +132,18 @@
     height: 14px;
 }
 
+.logo-content{
+    display: flex;
+    align-items: center;
+    max-width: 1110px;
+    height: 110px;
+    border: 1px solid red;
+}
+
+
+
+/* mobaile resonsive  */
+
 @media screen and (max-width: 576px) {
     .navbar {
         width: 100%;
