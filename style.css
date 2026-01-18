@@ -7,6 +7,9 @@
     font-weight: normal;
     font-style: normal;
 }
+body{
+    background-color: FFFFFF;
+}
 
 .container {
     max-width: 1440px;
@@ -142,8 +145,15 @@
 }
 
 .crat-content {
-    border: 1px solid blue;
+    
 }
+
+.crad-box{
+   width: 329px; 
+   height: 476;
+
+}
+
 
 
 
