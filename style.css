@@ -142,33 +142,34 @@ body {
 }
 
 .logo-content {
+    max-width: 1138px;
     display: flex;
     min-height: 110px;
     align-items: center;
     justify-content: space-around;
-    /* border: 1px solid red; */
-    margin-top: 6rem;
+    border: 1px solid red;
+    margin: 0 auto;
 }
 
 
-.Popular{
+.Popular {
     width: 100%;
     display: flex;
     justify-content: center;
     margin-top: 4rem;
-    font-size: clamp(0.5rem, 6vw, 1.5rem) ;
-    
+    font-size: clamp(0.5rem, 6vw, 1.5rem);
+
     /* border: 1px solid black; */
 }
 
 .crat-content {
-    max-width: 1138px;
+    width: 100%;
+    max-width: 1147px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
     align-items: center;
-    width: 100%;
     padding: 0 16px;
 
 }
@@ -226,20 +227,23 @@ body {
     color: orange;
 }
 
+.featured {
+    max-width: 1110px;
+}
 
-.featured{
-    width: 100%;
-    max-width: 1280px;
+
+.featured-box {
     display: flex;
-    justify-content: center;
     align-items: center;
-    gap: 96px;
-    /* border: 1px solid red; */
+    gap: 24px;
+    background: #fff;
+    border-radius: 12px;
+    padding: 24px;
 
 
 }
 
-.featured-title{
+.featured-title {
     max-width: 610px;
 }
 
