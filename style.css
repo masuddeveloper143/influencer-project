@@ -217,8 +217,8 @@ body {
 
 }
 
-.crad-title {
-    margin-top: 1rem;
+.crad-title, h1, p{
+    line-height: 200%;
 }
 
 
@@ -228,23 +228,40 @@ body {
 }
 
 .featured {
-    max-width: 1110px;
+    max-width: 1210px;
+    margin: 0 auto;
+    border-radius: 12px;
+    padding: 24px;
+    margin-top: 4rem;
+
 }
 
 
 .featured-box {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    gap: 24px;
-    background: #fff;
-    border-radius: 12px;
-    padding: 24px;
+}
 
-
+.featured-box img{
+    max-width: 404px;
 }
 
 .featured-title {
     max-width: 610px;
+
+}
+
+.featured-title h1 {
+    color: rgba(10, 8, 38, 1);
+
+    font-family: Poppins;
+    font-style: Bold;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0px;
+    text-align: left;
 }
 
 
